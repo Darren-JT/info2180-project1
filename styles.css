@@ -82,3 +82,37 @@ nav ul li {
   height: 150px;
   width:auto;
 }
+
+.testing{
+    background-color:grey;
+    display: flex;
+    align-items :center;
+    padding: 60px 0;
+}
+
+.testing .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.testing-description{
+    align-items: Left;
+    display:flex;
+    text-align:justify
+}
+
+
+
+
+.testing .btn {
+  background-color: #48bb78;
+  color: white;
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+
+
+}
