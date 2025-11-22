@@ -5,7 +5,80 @@ body {
 }
 
 .container {
-    margin: 0 auto;
-    max-width: 960px;
-    width: 100%;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header{
+    font-size: medium;
+}
+
+header .container {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+.overview-hero{
+    background-color:rgb(201, 213, 230);
+    align-items:center;
+}
+
+
+
+.overview-hero .container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.overview-hero-image img{
+
+    align-items: center;
+}
+
+.overview-hero-text h2{
+    align-items: Right;
+}
+
+.learn-about h2 {
+  font-size: 24px;
+  color: #48bb78;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #e2e8f0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.card img {
+  border-radius: 5px;
+  margin-bottom: 15px;
+  height: 150px;
+  width:auto;
 }
