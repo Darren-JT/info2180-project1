@@ -116,3 +116,41 @@ nav ul li {
 
 
 }
+.stories{
+    display:flex;
+    align-items :center;
+
+}
+
+
+.stories article{
+    display:flex;
+    align-items:center;
+    padding: 20px;
+}
+
+.stories article img{
+    padding:20px;
+}
+
+footer {
+  background-color: #4a5568;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+
+}
+
+.newsletter{
+    text-align: center;
+    display:flex;
+
+}
+
+.newsletter form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
